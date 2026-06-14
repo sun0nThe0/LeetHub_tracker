@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0238-product-of-array-except-self) |
@@ -67,4 +68,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0540-single-element-in-a-sorted-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0540-single-element-in-a-sorted-array) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0852-peak-index-in-a-mountain-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
