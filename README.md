@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0011-container-with-most-water) |
 | [0088-merge-sorted-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0189-rotate-array) |
+| [0344-reverse-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0344-reverse-string) |
 ## Greedy
 |  |
 | ------- |
@@ -72,4 +73,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0136-single-number) |
+## String
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
