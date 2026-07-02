@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0238-product-of-array-except-self) |
 | [0485-max-consecutive-ones](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0540-single-element-in-a-sorted-array) |
@@ -37,16 +38,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0229-majority-element-ii) |
 | [0567-permutation-in-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0567-permutation-in-string) |
 ## Sorting
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0229-majority-element-ii) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0229-majority-element-ii) |
 ## Math
 |  |
 | ------- |
