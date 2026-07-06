@@ -1,30 +1,45 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        vector<int> ans;
-        int n = nums.size();
+        int cnt1 = 0, cnt2 = 0;
+        int el1 = INT_MIN, el2 = INT_MIN;
 
-        for (int i = 0; i < n; i++) {
-
-            bool already = false;
-            for (int x : ans) {
-                if (x == nums[i]) {
-                    already = true;
-                    break;
-                }
+        // Step 1: Find the two potential majority elements
+        for (int num : nums) {
+            if (cnt1 == 0 && num != el2) {
+                el1 = num;
+                cnt1 = 1;
             }
-
-            if (already) continue;
-
-            int count = 0;
-            for (int j = 0; j < n; j++) {
-                if (nums[j] == nums[i])
-                    count++;
+            else if (cnt2 == 0 && num != el1) {
+                el2 = num;
+                cnt2 = 1;
             }
-
-            if (count > n / 3)
-                ans.push_back(nums[i]);
+            else if (num == el1) {
+                cnt1++;
+            }
+            else if (num == el2) {
+                cnt2++;
+            }
+            else {
+                cnt1--;
+                cnt2--;
+            }
         }
+
+        // Step 2: Verify the candidates
+        cnt1 = 0;
+        cnt2 = 0;
+
+        for (int num : nums) {
+            if (num == el1) cnt1++;
+            else if (num == el2) cnt2++;
+        }
+
+        vector<int> ans;
+        int mini = nums.size() / 3;
+
+        if (cnt1 > mini) ans.push_back(el1);
+        if (cnt2 > mini) ans.push_back(el2);
 
         return ans;
     }
