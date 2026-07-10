@@ -1,36 +1,28 @@
 class Solution {
 public:
-    int singleNonDuplicate(vector<int>& A) {
-        int n = A.size();
+    int singleNonDuplicate(vector<int>& nums) {
+        int n = nums.size();
 
-        if (n == 1) return A[0];
+        if (n == 1) return nums[0];
 
-        int st = 0, end = n - 1;
+        int low = 0, high = n - 1;
 
-        while (st <= end) {
-            int mid = st + (end - st) / 2;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
 
-            if (mid == 0 && A[0] != A[1]) return A[mid];
-            if (mid == n - 1 && A[n - 1] != A[n - 2]) return A[mid];
+            // Make mid even
+            if (mid % 2 == 1)
+                mid--;
 
-            if (A[mid - 1] != A[mid] && A[mid] != A[mid + 1])
-                return A[mid];
-
-            if (mid % 2 == 0) { // even
-                if (A[mid - 1] == A[mid]) { // left
-                    end = mid - 1;
-                } else { // right
-                    st = mid + 1;
-                }
-            } else { // odd
-                if (A[mid - 1] == A[mid]) { // right
-                    st = mid + 1;
-                } else { // left
-                    end = mid - 1;
-                }
+            if (nums[mid] == nums[mid + 1]) {
+                // Single element is on the right
+                low = mid + 2;
+            } else {
+                // Single element is on the left (or at mid)
+                high = mid;
             }
         }
 
-        return -1;
+        return nums[low];
     }
 };
