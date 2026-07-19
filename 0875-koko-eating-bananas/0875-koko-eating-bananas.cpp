@@ -1,25 +1,32 @@
 class Solution {
 public:
-    bool canEat(vector<int>& piles, int h, int speed) {
-        long long hours = 0;
-
-        for (int pile : piles) {
-            hours += (pile + speed - 1) / speed;  // ceil(pile / speed)
+    int findmax(vector<int> &vec){
+        int maxi = INT_MIN;
+        for(int i = 0; i < vec.size(); i++){
+            maxi = max(maxi, vec[i]);
         }
-
-        return hours <= h;
+        return maxi;
     }
 
-    int minEatingSpeed(vector<int>& piles, int h) {
-        int low = 1;
-        int high = *max_element(piles.begin(), piles.end());
+    long long calculatetotalhours(vector<int> &vec, int mid){
+        long long totalH = 0;
+        for(int i = 0; i < vec.size(); i++){
+            totalH += ceil((double)vec[i] / (double)mid);
+        }
+        return totalH;
+    }
 
-        while (low <= high) {
+    int minEatingSpeed(vector<int>& vec, int h) {
+        int low = 1, high = findmax(vec);
+
+        while(low <= high){
             int mid = low + (high - low) / 2;
+            long long totalH = calculatetotalhours(vec, mid);
 
-            if (canEat(piles, h, mid)) {
+            if(totalH <= h){
                 high = mid - 1;
-            } else {
+            }
+            else{
                 low = mid + 1;
             }
         }
