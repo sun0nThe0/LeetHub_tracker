@@ -1,10 +1,10 @@
 class Solution {
 public:
-    int computeSum(vector<int>& nums, int divisor) {
+    int sumByD(vector<int>& nums, int divisor) {
         int sum = 0;
 
-        for (int num : nums) {
-            sum += (num + divisor - 1) / divisor;   // ceil(num/divisor)
+        for (int i = 0; i < nums.size(); i++) {
+            sum += ceil((double)nums[i] / (double)divisor);
         }
 
         return sum;
@@ -17,10 +17,10 @@ public:
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
-            if (computeSum(nums, mid) <= threshold) {
-                high = mid - 1;     // try smaller divisor
+            if (sumByD(nums, mid) <= threshold) {
+                high = mid - 1;
             } else {
-                low = mid + 1;      // need larger divisor
+                low = mid + 1;
             }
         }
 
