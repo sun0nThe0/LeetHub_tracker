@@ -1,19 +1,19 @@
 class Solution {
 public:
-    bool canShip(vector<int>& weights, int days, int capacity) {
-        int requiredDays = 1;
-        int currentLoad = 0;
+    int findDays(vector<int>& weights, int capacity) {
+        int days = 1;
+        int load = 0;
 
-        for (int weight : weights) {
-            if (currentLoad + weight > capacity) {
-                requiredDays++;
-                currentLoad = weight;
+        for (int i = 0; i < weights.size(); i++) {
+            if (load + weights[i] > capacity) {
+                days++;
+                load = weights[i];
             } else {
-                currentLoad += weight;
+                load += weights[i];
             }
         }
 
-        return requiredDays <= days;
+        return days;
     }
 
     int shipWithinDays(vector<int>& weights, int days) {
@@ -23,7 +23,9 @@ public:
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
-            if (canShip(weights, days, mid)) {
+            int requiredDays = findDays(weights, mid);
+
+            if (requiredDays <= days) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
