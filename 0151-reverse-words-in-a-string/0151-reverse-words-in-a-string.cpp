@@ -1,29 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     string reverseWords(string s) {
-        string chunk = "";
+        int n = s.length();
         string ans = "";
 
-        for (char ch : s) {
-            if (ch != ' ') {
-                chunk += ch;
-            } else {
-                if (!chunk.empty()) {
-                    if (ans.empty())
-                        ans = chunk;
-                    else
-                        ans = chunk + " " + ans;
+        reverse(s.begin(), s.end());
 
-                    chunk = "";
-                }
+        for(int i = 0; i < n; i++) {
+            string word = "";
+
+            // Skip extra spaces
+            while(i < n && s[i] == ' ')
+                i++;
+
+            while(i < n && s[i] != ' ') {
+                word += s[i];
+                i++;
             }
-        }
 
-        if (!chunk.empty()) {
-            if (ans.empty())
-                ans = chunk;
-            else
-                ans = chunk + " " + ans;
+            reverse(word.begin(), word.end());
+
+            if(word.length() > 0) {
+                if(ans.length() > 0)
+                    ans += " ";
+                ans += word;
+            }
         }
 
         return ans;
