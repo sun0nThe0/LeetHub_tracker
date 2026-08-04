@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0189-rotate-array) |
+| [1903-largest-odd-number-in-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1903-largest-odd-number-in-string) |
 ## Recursion
 |  |
 | ------- |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0011-container-with-most-water) |
+| [1903-largest-odd-number-in-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1903-largest-odd-number-in-string) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0567-permutation-in-string) |
 | [1021-remove-outermost-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1021-remove-outermost-parentheses) |
+| [1903-largest-odd-number-in-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1903-largest-odd-number-in-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Stack
 |  |
