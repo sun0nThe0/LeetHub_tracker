@@ -1,16 +1,25 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+
         if (s.length() != t.length())
             return false;
-        map<char, int> mp1;
-        map<char, int> mp2;
-        int n = s.length();
-        for (int i = 0; i < n; i++) {
-            mp1[s[i]]++;
-            mp2[t[i]]++;
+
+        int freq[26] = {0};
+
+        for (int i = 0; i < s.length(); i++) {
+            freq[s[i] - 'a']++;
         }
-    return mp1 == mp2;
-        
+
+        for (int i = 0; i < t.length(); i++) {
+            freq[t[i] - 'a']--;
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] != 0)
+                return false;
+        }
+
+        return true;
     }
 };
