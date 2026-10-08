@@ -8,47 +8,18 @@
  */
 class Solution {
 public:
+    bool hasCycle(ListNode *head) {
 
-    bool checknotcycle(ListNode* temp, vector<ListNode*>& arr) {
+        ListNode* slow = head;
+        ListNode* fast = head;
 
-        for(int i = 0; i < arr.size(); i++) {
+        while(fast != NULL && fast->next != NULL) {
 
-            if(temp == arr[i])
-                return false;
-        }
+            slow = slow->next;
+            fast = fast->next->next;
 
-        return true;
-    }
-
-
-    bool addtoarr(ListNode* temp, vector<ListNode*>& arr) {
-
-        if(checknotcycle(temp, arr)) {
-
-            arr.push_back(temp);
-            return true;
-        }
-
-        return false;
-    }
-
-
-    bool hasCycle(ListNode* head) {
-
-        vector<ListNode*> arr;
-
-        ListNode* temp = head;
-
-        while(temp != NULL) {
-
-            if(addtoarr(temp, arr)) {
-
-                temp = temp->next;
-            }
-            else {
-
+            if(slow == fast)
                 return true;
-            }
         }
 
         return false;
