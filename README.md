@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0050-powx-n) |
+| [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0189-rotate-array) |
+| [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
 | [0344-reverse-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0567-permutation-in-string) |
 | [0876-middle-of-the-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0876-middle-of-the-linked-list) |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
 | [1021-remove-outermost-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1021-remove-outermost-parentheses) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Simulation
@@ -198,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0148-sort-list) |
+| [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0876-middle-of-the-linked-list) |
 ## Floyd's Cycle Finding Algorithm
 |  |
