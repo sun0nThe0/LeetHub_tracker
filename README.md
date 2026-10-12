@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
 | [1021-remove-outermost-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1021-remove-outermost-parentheses) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1910-remove-all-occurrences-of-a-substring) |
@@ -227,4 +228,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0020-valid-parentheses) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
