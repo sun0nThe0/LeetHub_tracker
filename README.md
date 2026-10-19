@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0739-daily-temperatures) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0853-car-fleet](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0451-sort-characters-by-frequency) |
+| [0853-car-fleet](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0853-car-fleet) |
 ## Counting
 |  |
 | ------- |
@@ -166,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
 | [0739-daily-temperatures](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0853-car-fleet) |
 | [1021-remove-outermost-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1021-remove-outermost-parentheses) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Simulation
@@ -241,4 +244,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0853-car-fleet) |
 <!---LeetCode Topics End-->
