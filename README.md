@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0238-product-of-array-except-self) |
 | [0485-max-consecutive-ones](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0485-max-consecutive-ones) |
+| [0503-next-greater-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0739-daily-temperatures) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
+| [0503-next-greater-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0853-car-fleet) |
 | [1021-remove-outermost-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/1021-remove-outermost-parentheses) |
@@ -246,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0084-largest-rectangle-in-histogram) |
+| [0503-next-greater-element-ii](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0853-car-fleet) |
 ## Range Minimum/Maximum Query
