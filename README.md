@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0056-merge-intervals) |
+| [0084-largest-rectangle-in-histogram](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0020-valid-parentheses) |
+| [0084-largest-rectangle-in-histogram](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0234-palindrome-linked-list) |
@@ -243,6 +245,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0853-car-fleet) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/sun0nThe0/LeetHub_tracker/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
