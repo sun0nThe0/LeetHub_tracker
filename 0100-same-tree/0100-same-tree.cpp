@@ -12,42 +12,19 @@
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        queue<TreeNode*> q1;
-        queue<TreeNode*> q2;
-
-        q1.push(p);
-        q2.push(q);
-
-        while (!q1.empty() && !q2.empty()) {
-            TreeNode* node1 = q1.front();
-            TreeNode* node2 = q2.front();
-
-            q1.pop();
-            q2.pop();
-
-            // Both nodes are NULL
-            if (node1 == NULL && node2 == NULL) {
-                continue;
-            }
-
-            // Only one node is NULL
-            if (node1 == NULL || node2 == NULL) {
-                return false;
-            }
-
-            // Compare node values
-            if (node1->val != node2->val) {
-                return false;
-            }
-
-            // Add corresponding children
-            q1.push(node1->left);
-            q1.push(node1->right);
-
-            q2.push(node2->left);
-            q2.push(node2->right);
+        if (p == NULL && q == NULL) {
+            return true;
         }
 
-        return q1.empty() && q2.empty();
+        if (p == NULL || q == NULL) {
+            return false;
+        }
+
+        if (p->val != q->val) {
+            return false;
+        }
+
+        return isSameTree(p->left, q->left) &&
+               isSameTree(p->right, q->right);
     }
 };
